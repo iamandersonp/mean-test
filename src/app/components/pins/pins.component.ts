@@ -6,13 +6,7 @@ import { filter } from "rxjs/operators";
 import { FormBuilder } from "@angular/forms";
 import { Subscription } from "rxjs";
 import { Router } from "@angular/router";
-
-export interface Pin {
-	id?: number;
-	title?: string;
-	description?: string;
-}
-
+import { Pin } from "./pin";
 @Component({
 	selector: "app-pins",
 	templateUrl: "./pins.component.html",

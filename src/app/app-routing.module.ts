@@ -18,7 +18,7 @@ export const routes: Routes = [
 				component: FormComponent,
 			},
 			{
-				path: "edit/:idContact",
+				path: "edit/:id",
 				component: FormComponent,
 			},
 			{
